@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.10.0)
+    libreconv (0.9.1)
+      spoon
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.2)
+      mini_portile2 (~> 2.4.0)
+    rubyXL (3.4.2)
+      nokogiri (>= 1.4.4)
+      rubyzip (>= 1.1.6)
+    rubyzip (1.2.2)
+    spoon (0.0.6)
+      ffi
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  libreconv
+  rubyXL
+
+BUNDLED WITH
+   1.16.3
